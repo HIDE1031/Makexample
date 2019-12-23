@@ -1,0 +1,103 @@
+// 共通項目
+.h1 h2 {
+  font-wight: 200px;
+}
+
+.text-black {
+  color: #333;
+}
+
+.btn-black {
+  color: #333;
+  border: 1px solid #333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: #fff;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+// アラート
+.alert {
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+// ナビゲーション
+.navbar-brand {
+  font-family: 'arial black';
+  color: #fff;
+  font-size: 25px;
+}
+
+.nav-item {
+  font-size: 25px;
+  
+  :before {
+    color: #fff;
+  }
+}
+
+.btn-outline-success {
+  color: #333;
+  margin: 10px;
+}
+
+// トップページ
+.top-index-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-color: #fff;
+}
+
+.top-hero-container {
+  padding-top: 220px;
+  h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 60px;
+  }
+}
+
+// ユーザー
+.users-new-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: image-url('bg-top.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.users-new-container {
+  padding-top: 120px;
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+}
+
+// 投稿画面
+.posts-new-container {
+  padding-top: 120px;
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+    .form-control {
+    height: 120px;
+    }
+}
