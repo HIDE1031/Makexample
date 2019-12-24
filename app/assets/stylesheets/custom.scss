@@ -43,11 +43,25 @@
   :before {
     color: #fff;
   }
+  
+  :hover {
+    color: #fff;
+  }
+  
+  .nav-name {
+    font-size: 15px;
+    color: #fff;
+  }
 }
 
 .btn-outline-success {
   color: #333;
   margin: 10px;
+}
+
+.navbar-toggler {
+  color: #333;
+  padding: 10px;
 }
 
 // トップページ
